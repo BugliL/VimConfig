@@ -5,5 +5,7 @@ set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
 
 call plug#begin('.vim/plugins')
 Plug 'airblade/vim-gitgutter'
+Plug 'scrooloose/nerdtree'
+Plug 'itchyny/lightline.vim'
 call plug#end()
 
